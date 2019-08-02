@@ -13,14 +13,14 @@ This project is a simple Google Chrome Extension for YouTube, which allows user 
 
 ## Code organization
     .
-    ├── css             # Style sheet files
-    ├── img             # Images, extension icons
-    ├── js              # JavaScript files
+    ├── css                     # Style sheet files
+    ├── img                     # Images, extension icons
+    ├── js                      # JavaScript files
     │   ├── background.js       # Background scripts
-    │   ├── content.js      # Content scripts
-    │   ├── popup.js        # Popup scripts
+    │   ├── content.js          # Content scripts
+    │   ├── popup.js            # Popup scripts
     │   └── jquery.min.js        
-    ├── readme          # Readme content
+    ├── readme              # Readme content
     ├── index.html          # Popup structure
     ├── manifest.json       # Extension config
     └── README.md
