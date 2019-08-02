@@ -1,0 +1,173 @@
+html,
+body {
+	background-color: #F2F2F2;
+	font-family: 'Ubuntu', sans-serif;
+	height: 350px;
+	margin: 0;
+	width: 700px;
+}
+
+h1 {
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 5px;
+	background: #000;
+	color: #fff;
+}
+
+h2 {
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 14px;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+	margin: 3px 0;
+	font-size: 14px;
+}
+
+#videos_list {
+	max-height: 300px;
+	overflow: auto;
+}
+
+#videos_list ul {
+	list-style: decimal-leading-zero;
+}
+
+#videos_list li {
+	margin-bottom: 15px;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#videos_list li:hover {
+	color: #e01e0b;
+}
+
+#video_details {
+	width: 50%;
+	max-height: 381px;
+	text-align: center;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#video_details i {
+	font-size: 60px;
+}
+
+#video_details img {
+	margin-bottom: 15px;
+}
+
+#get_videos {
+	background: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+#get_videos:hover {
+	background: #e01e0b;
+}
+
+#default_open {
+	width: 80%;
+}
+
+#info {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#info p {
+	margin-top: 0;
+}
+
+#video_content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 250px;
+}
+#videos_list_wrapper {
+	width: 50%;
+}
+
+.vid_desc {
+	max-width: 320px;
+	margin: auto;
+	text-align: justify;
+}
+
+.button_wrapper {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.icon-bar {
+	width: 100%;
+	overflow: auto;
+	color: #ffffff;
+	background: #d9d9d9;
+}
+
+.icon-bar a {
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 24px;
+}
+
+.icon-bar a:not(.active):hover i {
+	color: #e01e0b;
+}
+
+.link.active {
+	background-color: #e01e0b;
+}
+
+.desc {
+	padding-bottom: 10px;
+}
+
+.action {
+	display: none;
+	min-height: 250px;
+	padding: 15px 0;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #e01e0b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #000;
+}

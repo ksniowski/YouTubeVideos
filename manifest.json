@@ -1,0 +1,43 @@
+{
+	"name": "YouTube Videos",
+	"description": "Gets list of YouTube Videos and let you get some info about them",
+	"version": "1.0",
+	"manifest_version": 2,
+	"icons": {
+		"128": "img/icon_128.png"
+	},
+	"permissions": ["activeTab", "tabs", "*://www.youtube.com/*"],
+	"browser_action":{
+		"default_icon": {
+			"16": "img/icon_16.png",
+			"32": "img/icon_32.png",
+			"48": "img/icon_48.png",
+			"128": "img/icon_128.png"
+		},
+		"default_popup": "index.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://www.youtube.com/*"],
+			"run_at": "document_start",
+			"js": ["js/content.js"]
+		}
+	],
+	"background": {
+		"scripts": ["js/jquery.min.js", "js/background.js"],
+		"persistent": true
+	},
+	"commands": 
+	{
+		"_execute_browser_action": 
+		{
+			"suggested_key":
+			{
+				"default": "Ctrl+Shift+F",
+				"mac": "MacCtrl+Shift+F"
+			},
+			"description": "Opens YouTube Videos extension"
+		}
+	}  
+}
+

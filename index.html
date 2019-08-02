@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>YouTube Videos</title>
+	<meta name="description" content="">
+	<meta name="vieport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<meta name="author" content="Karol Śniowski">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>YouTube Videos</h1>
+
+	<div class="icon-bar">
+		<a href="#" class="link" id="default_open"><i class="fas fa-video"></i></a> 
+		<a href="#" class="link" id="info_link"><i class="fas fa-info-circle"></i></a>
+	</div>
+
+	<div class="action" id="show"> 
+		<div id="video_content">
+			<div id="videos_list_wrapper">
+				<div class="desc">
+					<h2>Available Videos</h2>
+				</div>
+
+				<div id="videos_list"></div>
+
+				<div class="button_wrapper">
+					<button id="get_videos" title="Do you know that you can scroll down and then click again to load some more videos?">Load videos</button>
+				</div>
+			</div>
+			<div id="video_details">
+				<i class="far fa-file-alt"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="action" id="info"> 
+		<div class="desc">
+			<h2>YouTube Videos</h2>
+			<p>Version: 1.0</p> 
+			<p>Author: Karol Śniowski</p> 
+		</div>
+
+		<h3>Keyboard shortcut:</h3>
+		<p>Open/Close: Ctrl+Shift+F</p>
+	</div>
+
+	<script src="js/popup.js"></script>
+	<script src="js/jquery.min.js"></script>
+</body>
+</html>
