@@ -20,9 +20,9 @@ This project is a simple Google Chrome Extension for YouTube, which allows user 
     │   ├── content.js          # Content scripts
     │   ├── popup.js            # Popup scripts
     │   └── jquery.min.js        
-    ├── readme              # Readme content
-    ├── index.html          # Popup structure
-    ├── manifest.json       # Extension config
+    ├── readme                  # Readme content
+    ├── index.html              # Popup structure
+    ├── manifest.json           # Extension config
     └── README.md
 
 ## Acknowledgements
